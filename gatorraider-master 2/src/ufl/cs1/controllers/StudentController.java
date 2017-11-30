@@ -17,7 +17,7 @@ public final class StudentController implements DefenderController
 
 		int[] actions = new int[Game.NUM_DEFENDER];
 		//int[][] actions = new int[Game.NUM_DEFENDER][Game.NUM_DEFENDER];
-		List<Defender> enemies = game.getDefenders();
+		//List<Defender> enemies = game.getDefenders();
 
 		//Chooses a random LEGAL action if required. Could be much simpler by simply returning
 		//any random number of all of the ghosts
