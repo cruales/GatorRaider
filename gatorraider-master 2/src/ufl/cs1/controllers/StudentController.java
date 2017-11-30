@@ -33,8 +33,8 @@ public final class StudentController implements DefenderController
 		for(int i=0; i<actions.length; i++) {
 			int attacker_x = game.getAttacker().getLocation().getX();
 			actions[i] = attacker_x;
-			//int attacker_y = game.getAttacker().getLocation().getY();
-			//actions[i] = attacker_y;
+			int attacker_y = game.getAttacker().getLocation().getY();
+			actions[i] = attacker_y;
 		}
 		return actions;
 	}
